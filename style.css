@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    align-items: center;
+}
+
+#logo {
+    width: 130px;
+}
+
+#nav-bar {
+    margin-right: 20px;
+}
+
+.tabs {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+/* First Section: sign-up */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-bottom: 180px;
+}
+
+#sign-up-info {
+    text-align: left;
+    max-width: 600px;
+    margin-left: 100px;
+    padding-top: 170px;
+}
+.images {
+    padding: 90px 100px 0 0;
+    max-width: 600px;
+}
+
+#img-1 {
+    max-width: 550px;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.email {
+    padding: 10px 150px 10px 10px;
+    margin-right: 10px;
+}
+
+.email::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.button {
+    padding: 12px 60px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-color: hsl(224, 93%, 58%);
+    border-radius: 3px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 3px 0px;
+}
+
+.button:hover {
+    background-color: hsl(224, 93%, 58%, 0.8);
+    cursor: pointer;
+}
+
+/* Second Section: how it works */
+
+.color {
+    background-color: hsl(240, 75%, 98%, .7);
+    padding-bottom: 170px;
+    margin-bottom: 0;
+}
+
+#curve {
+    width: 100%;
+    object-fit: contain;
+}
+
+#get-started-info {
+    margin-left: 100px;
+    width: 700px;
+}
+
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: black;
+    width: 550px;
+}
+
+#how-it-works {
+    display: flex;
+    border-bottom: 1.5px solid hsl(170, 45%, 43%);
+    width: 168px;
+}
+
+#how-it-works:hover {
+    cursor: pointer;
+    border-bottom: 1.5px solid hsl(160, 82%, 67%);
+}
+
+#link-to {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+#link-to:hover {
+    color: hsl(160, 82%, 67%);
+}
+
+#arrow {
+    align-self: center;
+}
+
+#card {
+    background-color: white;
+    margin-top: 50px;
+    width: 420px;
+    height: 250px;
+    overflow-wrap: break-word;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 13px 0px;
+}
+
+#quote-icon {
+    padding: 30px 0 10px 30px;
+}
+
+#quote {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    width: 380px;
+    padding-left: 30px;
+    word-spacing: 1.7px;
+    line-height: 1.7em;
+}
+
+#person-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+#profile-icon {
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 30px;
+    align-self: center;
+}
+
+#identity {
+    margin: 20px 0 0 10px;
+}
+
+#name {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+#name-info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+}
+
+.images-mod {
+    padding: 20px 100px 0 0;
+}
+
+#img-2 {
+    width: 550px;
+}
+
+/* Third Section: early access */
+
+.color-1 {
+    background-color: hsl(238, 22%, 44%);
+    height: 370px;
+    margin-bottom: 0px;
+}
+
+#access-info {
+    padding: 100px 0 0 120px;
+}
+
+h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#access-text {
+    color: hsl(240, 75%, 98%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    width: 480px;
+    line-height: 1.5em;
+}
+
+#access-start {
+    padding: 110px 80px 0 0;
+}
+
+.eml {
+    display: block;
+    padding: 13px 330px 13px 13px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn {
+    padding: 12px 30px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: hsl(243, 87%, 12%);
+    height: 380px;
+    margin-bottom: -30px;
+}
+
+#contact {
+    color: white;
+    margin: 110px 0 0 130px;
+    width: 300px;
+}
+
+#logo-color {
+    margin-bottom: 20px;
+}
+
+#phone, #email {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#phone-icon, #email-icon {
+    align-self: center;
+}
+
+#phone-info, #email-info {
+    margin: 2px 0 0 20px;
+}
+
+#footer-info {
+    column-count: 2;
+    column-gap: 150px;
+    margin: 190px 100px 0 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.info {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.info:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+#social-media {
+    display: flex;
+    justify-content: flex-end;
+    margin: 190px 250px 0 0;
+}
+
+#social-media a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#social-media i{
+    border: 1px white solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+#social-media i:hover {
+    color: hsl(224, 93%, 58%);
+    border: 1px hsl(224, 93%, 58%) solid;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1250px) {
+    .images, #img-1, #sign-up-info, #img-2, #get-started-info {
+        max-width: 450px;
+    }
+    #img-1, #img-2 {
+        width: 400px;
+        padding-top: 80px;
+    }
+    .text, #txt {
+        width: 450px;
+    }
+    .email {
+        margin-bottom: 15px;
+    }
+    #access-info {
+        padding: 100px 0 0 60px;
+    }
+    .eml {
+        padding: 13px 250px 13px 13px;
+    }
+    #access-start {
+        padding: 110px 35px 0 0;
+    }
+    #contact {
+        margin: 110px 0 0 100px;
+    }
+    h1 {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    #sign-up-info {
+        margin-left: 60px;
+    }
+    .images, #img-1, #sign-up-info, #img-2, #get-started-info {
+        max-width: 350px;
+    }
+    .images {
+        display: flex;
+        align-self: center;
+    }
+    #img-1, #img-2 {
+        width: 300px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    #get-started-info {
+        margin-left: 60px;
+    }
+    #get-started-info h1 {
+        width: 420px;
+    }
+    .email {
+        margin-bottom: 15px;
+    }
+    .text, #txt {
+        font-size: 15px;
+        width: 400px;
+    }
+    #img-1, #img-2 {
+        padding-top: 100px;
+    }
+    #card {
+        width: 350px;
+    }
+    #quote {
+        font-size: 14px;
+        width: 330px;
+    }    
+    #access-info {
+        padding: 100px 0 0 30px;
+    }
+    .eml {
+        padding: 13px 160px 13px 13px;
+    }
+    .btn {
+        padding: 12px 20px;
+    }
+    #access-start {
+        padding: 110px 35px 0 0;
+    }
+    #access-text {
+        width: 370px;
+    }
+    #contact {
+        margin: 110px 0 0 100px;
+    }
+    #contact {
+        margin: 110px 0 0 20px;
+        width: 250px;
+    }
+    #footer-info {
+        column-count: 2;
+        column-gap: 100px;
+        margin: 190px 100px 0 10px;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .images, #img-1, #img-2 {
+        max-width: 300px;
+    }
+    #header {
+        padding: 20px 0 100px 20px;
+        justify-content: space-between;
+    }
+    #header a{
+        font-size: 12px;
+        margin-left: 25px;
+    }
+    #logo {
+        width: 70px;
+    }
+    .cont-1 {
+        display: block;
+        position: relative;
+        top: -250px;
+    }
+    #sign-up-info {
+        position: relative;
+        top: 400px;
+        max-width: 300px;
+        margin: -30px auto;
+    }
+    .i-1 {
+        position: relative;
+        top: -400px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+    }
+    h1 {
+        max-width: 300px;
+        font-size: 23px;
+        text-align: center;
+    }
+    p {
+        max-width: 300px;
+        text-align: center;
+    }
+    .email, .button {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .email {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .color {
+        margin-top: -150px;
+    }
+    .images-mod {
+        position: absolute;
+        top: 700px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+    #get-started-info {
+        position: relative;
+        top: 60px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    #how-it-works {
+        margin: 0 auto;
+    }
+    #card {
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 280px;
+        height: 220px;
+    }
+    #quote-icon {
+        padding: 15px;
+    }
+    #quote {
+        font-size: 13px;
+        width: 280px;
+    }
+    #identity, #name-info {
+        width: 200px;
+    }
+    #quote, #name-info {
+        text-align: left;
+    }
+    #profile-icon {
+        margin: -10px 0 0 20px;
+    }
+    #identity {
+        margin: 7px 0 0 12px;
+    }
+    .color-1 {
+        display: block;
+        padding-top: 20px;
+    }
+    #access-info {
+        margin: 40px 0 0 0;
+        padding: 0 10px 0 0;
+        text-align: center;
+    }
+    #access-start {
+        margin: 0;
+        padding: 0;
+    }
+    #access-text {
+        font-size: 12px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .eml {
+        width: 70%;
+        padding: 8px 0 8px 10px;
+        margin: 20px auto 10px auto;
+    }
+    .btn {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        padding: 8px;
+    }
+    #footer {
+        height: 630px;
+    }
+    #contact {
+        margin: 40px 0 50px 40px;
+        padding: 0;
+    }
+    #email-info {
+        margin-left: -20px;
+    }
+    #logo-color {
+        margin-top: 50px;
+    }
+    .footer-ctn {
+        display: block;
+    }
+    #footer-info {
+        column-count: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #social-media {
+        display: flex;
+        margin: 20px 0;
+        padding: 0;
+        justify-content: center;
+    }
+    .info-ctn {
+        margin-top: 20px;
+    }
+}
